@@ -66,7 +66,7 @@ one):
 
 | Model | Settings |
 |---|---|
-| Kobo Libra Colour (FW 4.5) | `SUDOKU_TOUCH_SWAP_XY=1`, `SUDOKU_TOUCH_MIRROR_Y=1` |
+| Kobo Libra Colour (FW 4.5) | `KOBO_2048_TOUCH_SWAP_XY=1`, `KOBO_2048_TOUCH_MIRROR_Y=1` |
 
 **Known limitation:** calibration assumes the device is held in its normal
 (non-inverted) portrait orientation — the app doesn't read the
