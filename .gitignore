@@ -1,0 +1,46 @@
+# Build directories
+build/
+out/
+bin/
+obj/
+
+# Object / binary artifacts
+*.o
+*.obj
+*.a
+*.so
+*.lib
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# Packaged output
+dist/*.zip
+
+# Local runtime data (simulator save files, host device-dir default)
+kobo_2048-data/
+
+# Fetched by tools/build-fbink.sh (pinned there, not committed)
+third_party/FBInk/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.user
+*.suo
+.vs/
+
+# OS noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log

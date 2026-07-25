@@ -1,0 +1,1 @@
+menu_item : main : Kobo 2048 : cmd_spawn : quiet : exec /mnt/onboard/.adds/kobo_2048/start.sh
