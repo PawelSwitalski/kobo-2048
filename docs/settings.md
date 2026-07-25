@@ -61,6 +61,13 @@ for `tap raw=(..) -> (..)` lines — raw coordinates that span the screen's
 *height* on what should be the *x* axis are the usual sign that `SWAP_XY`
 is needed.
 
+Confirmed working settings by model (please share yours if you test a new
+one):
+
+| Model | Settings |
+|---|---|
+| Kobo Libra Colour (FW 4.5) | `SUDOKU_TOUCH_SWAP_XY=1`, `SUDOKU_TOUCH_MIRROR_Y=1` |
+
 **Known limitation:** calibration assumes the device is held in its normal
 (non-inverted) portrait orientation — the app doesn't read the
 accelerometer, so holding the device upside-down maps taps incorrectly.
